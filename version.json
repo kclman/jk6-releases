@@ -1,0 +1,18 @@
+{
+  "project": "QQ-JK6",
+  "board": "esp32-s3-devkitc-1",
+  "idf_project": "jk-bms-6-s3",
+  "flash_size": "16MB",
+  "chip_id": 9,
+  "version": "QQ-JK6-039H-CLOUDOTA-R3-RC-20261109",
+  "version_code": 3908,
+  "release_date": "2026-11-09",
+  "firmware": "https://raw.githubusercontent.com/kclman/jk6-releases/main/releases/QQ-JK6-039H-CLOUDOTA-R3-RC-20261109/firmware.ota.bin",
+  "firmware_size": 1541600,
+  "sha256": "cf391bef670f4e796553c1bdf9d09d9d674656068e70221e82e9f1bba2eef3b1",
+  "changes": [
+    "GitHub 雲端 OTA 檢查與 SHA256 驗證下載",
+    "維持既有 Web81 手動 OTA 路徑",
+    "增加雲端 Prepare 失敗復原與 ESP32-S3 映像驗證"
+  ]
+}
