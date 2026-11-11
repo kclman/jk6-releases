@@ -1,17 +1,17 @@
 {
   "project": "DCS",
   "package": "com.sgre.webview",
-  "version": "1.0.74",
-  "version_code": 74,
-  "channel": "candidate",
+  "version": "1.0.75",
+  "version_code": 75,
+  "channel": "stable",
+  "release_stage": "administrator_test",
   "release_date": "2026-11-11",
-  "apk_url": "",
-  "apk_size": 183945,
-  "sha256": "77c74f2b582ec3743739ee7eed8527a86349aebbb11a56395f13be50aa9b3878",
+  "apk_url": "https://raw.githubusercontent.com/kclman/jk6-releases/main/dcs/releases/DCS_V1.0.75.apk",
+  "apk_size": 183940,
+  "sha256": "af92dc2d68553f4b46c6734ac9f436063ddb2e687c0d9ad5d03695edd97845e7",
   "changes": [
-    "新增設備管理選單「檢查更新」功能",
-    "使用 JK 共用 GitHub 倉庫內的獨立 DCS 版本資訊",
-    "保留現有介面與設定，不自動安裝"
+    "雲端更新升級測試：DCS 1.0.74 → 1.0.75",
+    "保留既有操作介面、設備清單與 WebView 功能"
   ],
-  "notes": "Build verified 37/37 JUnit PASS; phone acceptance pending; no public APK released."
+  "notes": "Administrator phone upgrade acceptance pending. The legacy V1.0.74 updater requires channel=stable to show the upgrade. This is not yet a customer-verified release."
 }
