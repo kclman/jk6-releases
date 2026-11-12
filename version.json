@@ -4,16 +4,16 @@
   "idf_project": "jk-bms-6-s3",
   "flash_size": "16MB",
   "chip_id": 9,
-  "version": "QQ-JK6-039K-COMPACT-BLE-MANAGE-R1-20261112",
-  "version_code": 3911,
+  "version": "QQ-JK6-039L-INLINE-HOME-VISIBILITY-R1-20261112",
+  "version_code": 3912,
   "release_date": "2026-11-12",
-  "firmware": "https://raw.githubusercontent.com/kclman/jk6-releases/main/releases/QQ-JK6-039K-COMPACT-BLE-MANAGE-R1-20261112/firmware.ota.bin",
-  "firmware_size": 1544080,
-  "sha256": "6efedcedf7997b6b47fb31d51f8acb99e763ae4cdd863ea8bd874eb7a3278c49",
+  "firmware": "https://raw.githubusercontent.com/kclman/jk6-releases/main/releases/QQ-JK6-039L-INLINE-HOME-VISIBILITY-R1-20261112/firmware.ota.bin",
+  "firmware_size": 1544112,
+  "sha256": "9d08e2cf2688de50d1ad3ce564ff2698b246fd65f11676a7aa44844bd48f026a",
   "changes": [
-    "設定頁面維持 039I R4 精簡的五大區塊與統一六槽藍牙清單",
-    "新增：進入管理頁面時，若雲端有較新版本會彈出更新提醒，可自行選擇稍後再說",
-    "縮小各槽「修改名稱與管理保護板」下拉框，展開前不再佔用過多空間",
-    "維持 BLE/NVS、MAC 移除後再新增的保護機制、Fusion/INV、Web OTA 與 GitHub 雲端 OTA"
+    "藍牙設定六槽的「顯示於首頁」勾選框移至名稱右側，操作方式比照巨量版",
+    "移除全部藍牙的連線數量及操作說明文字、六槽上方藍色提示框與底部冗長說明",
+    "保留 039K 的緊湊型名稱管理下拉列與登入時的 GitHub 新版提醒",
+    "六槽獨立 BLE、首頁顯示偏好、MAC 管理、BLE 排程、Fusion/INV、NVS 及 OTA 後端保持不變"
   ]
 }
